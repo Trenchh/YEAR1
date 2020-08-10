@@ -1,0 +1,284 @@
+Test 1 Section 1 a): Testing reiterration of prompts when invalid class 
+		sizes and weights are entered and improper weight distribution
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+1
+Enter course enrollment size:
+-1
+Enter course enrollment size:
+1
+Enter weight assignment 1 (20-30):
+10
+Enter weight assignment 1 (20-30):
+20
+Enter weight assignment 2 (20-30):
+10
+Enter weight assignment 2 (20-30):
+20
+Enter weight final exam (40-60):
+10
+Enter weight final exam (40-60):
+40
+<<< ERROR: Weights do not add up to 100% >>> 
+
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+
+
+
+
+
+Test 2 Section 1 b): Testing for a valid/active student number
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+1
+Enter course enrollment size:
+10
+Enter weight assignment 1 (20-30):
+20
+Enter weight assignment 2 (20-30):
+20
+Enter weight final exam (40-60):
+60
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+2
+Enter student number:
+123123123
+123123123 is invalid.
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+2
+Enter student number:
+12312312
+12312312 is not in the current class or does not exist.
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+
+
+
+
+
+Test 4 Section 1 c): Testing if students have been created
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+2
+<<< ERROR: Empty class list >>> 
+ Run option 1 first!
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+
+
+
+
+
+Test 3 Section 1 b): Testing for proper mark value
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+1
+Enter course enrollment size:
+1
+Enter weight assignment 1 (20-30):
+20
+Enter weight assignment 2 (20-30):
+20
+Enter weight final exam (40-60):
+60
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+3
+Student Number		A1(20%)		A2(20%)		FE(60%)		Final Mark
+______________		_______	 	_______	 	_______	 	___________
+71861712		86		32		15		32
+______________		_______	 	_______	 	_______	 	___________
+AVERAGES		86		32		15		32
+Highest final mark is 32
+Lowest final mark is 32
+
+Press Enter to Continue
+
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+2
+Enter student number:
+71861712
+View or Update? (V / U):
+u
+Mark Type? (A1, A2 or FE):
+a1
+A1 is 86
+Updated Mark (0-100):
+120
+120 is an invalid mark
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+
+
+
+
+
+Test 4 Section 1 c): Testing mark report without students
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+3
+Student Number		A1(0%)		A2(0%)		FE(0%)		Final Mark
+______________		_______	 	_______	 	_______	 	___________
+<<Empty List/ No Students>> 
+
+Press Enter to Continue
+
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+9
+Thank you for using Grade Calculator (Version 0.1). Goodbye.
+
+
+
+
+
+test 5 section 1 c): testing mark report with students
+
+Grade Calculator (Version 0.1). Author: Ryan Protheroe)
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+1
+Enter course enrollment size:
+5
+Enter weight assignment 1 (20-30):
+20
+Enter weight assignment 2 (20-30):
+20
+Enter weight final exam (40-60):
+60
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+Assignment 1 Mark Updated
+Assignment 2 Mark Updated
+Final Exam Mark Updated
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+3
+Student Number		A1(20%)		A2(20%)		FE(60%)		Final Mark
+______________		_______	 	_______	 	_______	 	___________
+81129255		69		58		36		45
+62129214		4		7		36		22
+42167013		86		60		61		65
+75534014		52		38		51		47
+86230438		9		78		75		61
+______________		_______	 	_______	 	_______	 	___________
+AVERAGES		44		48		51		48
+Highest final mark is 65
+Lowest final mark is 22
+
+Press Enter to Continue
+
+
+1 – Simulate Course Marks
+2 – View/Update Student Marks
+3 – Run Mark Statistics
+Select Option [1, 2 or 3] (9 to Quit):
+9
+Thank you for using Grade Calculator (Version 0.1). Goodbye.
+
+
